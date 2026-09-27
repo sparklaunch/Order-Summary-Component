@@ -1,5 +1,7 @@
 :root {
-	--color-text: rgb(0, 28, 62);
+	--color-background: rgb(219, 228, 255);
+	--color-header: rgb(0, 28, 62);
+	--color-text: rgb(91, 94, 112);
 	--color-card: rgb(246, 248, 254);
 	--color-accent: rgb(218, 226, 250);
 	--color-button: rgb(49, 37, 221);
@@ -9,4 +11,14 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background-color: var(--color-background);
+	height: 100vh;
+}
+
+button {
+	border: none;
+	cursor: pointer;
 }

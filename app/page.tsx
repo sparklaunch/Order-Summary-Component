@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./Home.module.css";
 import desktopBackground from "./assets/images/desktop-background.svg";
 import hero from "./assets/images/hero.svg";
+import mobileBackground from "./assets/images/mobile-background.svg";
 import music from "./assets/images/music.svg";
 
 export default function Home() {
@@ -12,6 +13,11 @@ export default function Home() {
 				src={desktopBackground}
 				alt=""
 				className={styles.desktopBackground}
+			/>
+			<Image
+				src={mobileBackground}
+				alt=""
+				className={styles.mobileBackground}
 			/>
 			<section className={styles.card}>
 				<Image src={hero} alt="" className={styles.hero} />
